@@ -2358,6 +2358,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   padding: 10px;
   background-color: #fff;
 }
+.form-links__item img {
+  width: 30px;
+  height: 30px;
+}
 
 .cocosh-sec {
   padding-top: 50px;
