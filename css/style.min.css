@@ -2580,6 +2580,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   position: relative;
   min-width: 300px;
 }
+.menu__list:first-child {
+  justify-content: flex-end;
+}
+.menu__list:first-child:after {
+  width: 112%;
+}
 @media (max-width: 991.98px) {
   .menu__list {
     gap: 10px;
@@ -2684,6 +2690,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   background-image: url("../img/main/01.jpg");
 }
 
+@media (max-width: 767.98px) {
+  .header-bg {
+    height: 550px;
+  }
+}
+
 .cocosh-bg {
   height: 800px;
 }
@@ -2715,8 +2727,8 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: 0.9;
-    padding: 100px 30px 30px 30px;
+    opacity: 0.8;
+    padding: 200px 30px 30px 30px;
     -webkit-transition: left 0.5s ease 0s;
     -o-transition: left 0.5s ease 0s;
     transition: left 0.5s ease 0s;
@@ -2750,7 +2762,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
     display: block;
     position: absolute;
     top: 38px;
-    right: 30px;
+    right: 50px;
     width: 30px;
     height: 18px;
     cursor: pointer;
@@ -2811,6 +2823,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 }
 
 .footer__list {
+  min-width: 300px;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -2819,6 +2832,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   line-height: 120%;
   color: #ffffff;
   text-transform: uppercase;
+}
+.footer__list:first-child {
+  justify-content: flex-end;
 }
 @media (max-width: 767.98px) {
   .footer__list {
@@ -2893,7 +2909,8 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 }
 @media (max-width: 479.98px) {
   .main-sec__title {
-    font-size: 45px;
+    font-weight: 700;
+    font-size: 50px;
   }
 }
 
@@ -2939,11 +2956,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
     font-size: 26px;
   }
 }
-@media (max-width: 479.98px) {
-  .main-sec__subtitle {
-    margin-bottom: 0;
-  }
-}
 
 .main-sec__text {
   font-family: "Effra", sans-serif;
@@ -2961,6 +2973,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 @media (max-width: 479.98px) {
   .main-sec__text {
     font-size: 18px;
+    margin-bottom: 15px;
   }
 }
 
